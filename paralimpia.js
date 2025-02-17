@@ -36,7 +36,8 @@ teliLeirasok[4]="A fogyatékkal élők számára az első hivatalos snowbard ver
 teliLeirasok[5]="Az ülő jégkorongot Svédországban találták ki az 1960-as évek elején. Olyan sportolók kezdték űzni, akik korábban jégkorongoztak, de valamilyen testi sérülésüket követően nem tudták folytatni a sportot. Az első nemzetközi mérkőzést 1969-ben Stockholmban játszották, ekkor a Svéd klubok mellett egy Norvég csapat is megfordult. 1980-as évektől kezdve egyre több ország kezdett el foglalkozni a sportággal, többek között Nagy-Britani, Kanada, Egyesült Államok, valamint Japán. A sportág 1994-es téli játékokon debütált, és hamar hatalmas szurkoló táborokat mozgatott meg.";
 
 
-function sportagak(){
+function sportagak(evszak){
+    mappa=evszak;
     if (evszak=="nyari") {
         nyarisportagak.split(',').forEach(kiir);
     } else if(evszak=="teli") {

@@ -4,9 +4,10 @@ body{
 
 p{
     text-indent: 20px;
+    text-align: justify;
 }
 
-h1, h2{
+h1, h2, h3{
     color:  rgba(255, 0, 0, 0.75);
     font-variant: small-caps;
     border-bottom: 1px solid darkgreen;
@@ -60,6 +61,7 @@ legend{
 
 #evszak{
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 #piktorgram{
